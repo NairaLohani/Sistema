@@ -1,0 +1,273 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html, body
+{
+	height: 100%;
+        scroll-behavior: smooth;
+}
+.logo{
+	margin-left: 80%;
+	width: 4%;
+	height: 50px;
+}
+body
+{
+	margin: 0px;
+	padding: 0px;
+	background: #FFF8E1;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 11pt;
+	font-weight: 300;
+	color: #6c6c6c;
+}
+
+h1, h2, h3
+{
+	margin-left: 80%;
+	padding: 0;
+	font-weight: 600;
+	color: #454445;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+p, ol, ul
+{
+	margin-top: 0;
+}
+
+ol, ul
+{
+	padding: 0;
+	list-style: none;
+}
+
+p
+{
+	line-height: 180%;
+}
+
+strong
+{
+}
+
+a
+{
+	color: #2C383B;
+}
+
+a:hover
+{
+	text-decoration: none;
+}
+
+.container
+{
+	width:100%;
+	height: 100%;
+}
+
+/*********************************************************************************/
+/* Image Style                                                                   */
+/*********************************************************************************/
+
+	
+	.button
+{
+	display: inline-block;
+	margin-top:15.5em;
+	width:9%;
+	height: 20px;
+	border-radius: 8px 8px 0px 0px;
+	padding: 0.5em 0.5em;
+	background: #bf0208;
+	text-align: center;
+	letter-spacing: 0.1em;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 800;
+	font-size: 19px;
+	color: #FFF;
+}
+
+
+
+/*********************************************************************************/
+/* Heading Titles                                                                */
+/*********************************************************************************/
+
+	
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header-wrapper
+	{
+		background-image: url(../img/burguer.png);	
+		background-size: 100%;
+		background-repeat: no-repeat;
+		height: 470px;
+		border-bottom:8px solid #bf0208;
+	}
+
+
+#triangle-down {
+	width:0;
+	margin: 0 auto 2em auto;
+	height: 0;
+	border-left: 70px solid transparent;
+	border-right: 70px solid transparent;
+	border-top: 40px solid #bf0208;
+
+}
+#triangle-up {
+	width:0;
+        margin-top:-2em;
+	margin-left: 90%;
+        border-radius: 100%;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-bottom: 20px solid #fff;
+
+}
+
+
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+
+	#logo
+	{
+		padding: 1em 0em;
+		text-align: center;
+	}
+	
+	#logo h1 a
+	{
+		font-size: 0.9em;
+	}
+	
+	#logo a
+	{
+		text-decoration: none;
+		color: #FFF;
+	}
+	
+	#logo span
+	{
+		letter-spacing: 0.10em;
+		text-transform: uppercase;
+		font-size: 0.70em;
+		margin-left: 80%;
+		color: rgba(255,255,255,0.5);
+	}
+
+	#logo span a
+	{
+		color: rgba(255,255,255,0.8);
+		font-family: 'Open Sans Condensed', sans-serif;
+	}
+	
+	#logo .icon
+	{
+		font-size: 4em;
+		color: rgba(255,255,255,1);
+	}
+	
+	
+
+/*********************************************************************************/
+/* Menu                                                                          */
+/*********************************************************************************/
+
+	#menu-wrapper
+	{
+		background-image: url(../img/img01.jpg);
+		width: 100%;
+	}
+
+	#menu
+	{
+		margin: 0px auto;
+	}
+	
+	#menu ul
+	{
+		text-align: center;
+	}
+	
+	#menu li
+	{
+		display: inline-block;
+	}
+	
+	#menu li a, #menu li span
+	{
+		display: inline-block;
+		margin-left: 0.50em;
+		padding: 1.3em 1em 1em 1.5em;
+		text-decoration: none;
+		letter-spacing: 0.1px;
+		font-size: 1.3em;
+		font-weight: 800;
+		text-transform: uppercase;
+		font-family: 'Open Sans Condensed', sans-serif;
+		outline: 0;
+		color: #FFF;
+	}
+	
+	#menu li a:hover
+	{
+		color: #FFEB3B;
+	}
+	
+	#menu .current_page_item a
+	{
+		color:#FFF8E1;
+	}
+
+.cont-cardapio{
+	width: 100%;
+	height: 500px;
+}
+.cont-about{
+	width: 100%;
+	height: 300px;
+	background:#E53935;
+}
+	
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+
+#copyright
+{
+	overflow: hidden;
+	background: #D60610;
+	width: 100%;
+	height: 50px;
+	border-top: 1px solid rgba(255,255,255,0.08);
+}
+
+#copyright p
+{
+	letter-spacing: 0.20em;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 1em;
+        margin-top: 1em;
+	font-family: 'Open Sans Condensed', sans-serif;
+	letter-spacing: 0.3px;
+	color: #fff;
+}
+
+#copyright a
+{
+	text-decoration: none;
+	color: rgba(255,255,255,0.6);
+}
+
